@@ -1,3 +1,74 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local(OpenSans-LightItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local(OpenSans-Italic), url(//fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdck.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdcs.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local(OpenSans-SemiBoldItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local(OpenSans-BoldItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local(OpenSans-ExtraBoldItalic), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqc.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqU.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local(OpenSans-Light), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local(OpenSans-Regular), url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0f.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0d.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local(OpenSans-SemiBold), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local(OpenSans-Bold), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhv.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local(OpenSans-ExtraBold), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuht.eot?#) format("eot"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format("woff2"), url(//fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhv.woff) format("woff");
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+
 html {
   width: 100%;
 }
@@ -84,8 +155,226 @@ textarea:active {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1150px;
   }
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.header__logo {
+  position: relative;
+  float: left;
+  width: 15%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header__navigation {
+  position: relative;
+  float: left;
+  width: 85%;
+  padding-top: 30px;
+  padding-left: 90px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header__menu {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.header__menu li {
+  position: relative;
+  margin-left: 35px;
+}
+
+.header__menu li a {
+  position: relative;
+  color: #d2e7fb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 11px;
+}
+
+.header ul.header__menu li:first-child {
+  margin-left: 0;
+}
+
+.baner {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 670px;
+  background-color: #0f89f3;
+}
+
+.baner__box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.baner__descr-wrap {
+  position: relative;
+  width: 50%;
+  margin-top: 175px;
+}
+
+.baner__title {
+  position: relative;
+  width: 100%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.baner__descr {
+  position: relative;
+  width: 95%;
+  color: #d2e7fb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.baner__button-view {
+  position: relative;
+  float: left;
+  background-color: #9addfc;
+  border-radius: 7px;
+  color: #345477;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.baner__descr-watch {
+  position: relative;
+  float: left;
+  width: 100%;
+  color: #95c9fb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-left: 36px;
+}
+
+.baner__descr-watch:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/icons/arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 5px;
+  left: 150px;
+}
+
+.baner__img-shell {
+  position: relative;
+  width: 50%;
+  margin-top: 90px;
+}
+
+.baner__img-wrap {
+  position: relative;
+  width: 550px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.baner__img-wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.baner__partners {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.baner__partners-img {
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  padding-left: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.baner__partners-img img {
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.baner__descr-shipped {
+  position: relative;
+  color: #a3d0fc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */

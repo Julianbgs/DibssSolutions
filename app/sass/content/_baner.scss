@@ -1,0 +1,135 @@
+.baner {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 670px;
+  background-color: #0f89f3;
+
+  &__box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__descr-wrap {
+    position: relative;
+    width: 50%;
+    margin-top: 175px;
+  }
+
+  &__title{
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: $OpenSans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+  }
+
+  &__descr{
+    position: relative;
+    width: 95%;
+    color: #d2e7fb;
+    font-family: $OpenSans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  &__button-view{
+    position: relative;
+    float: left;
+    background-color: #9addfc;
+    border-radius: 7px;
+    color: #345477;
+    font-family: $OpenSans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  &__descr-watch{
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #95c9fb;
+    font-family: $OpenSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-left: 36px;
+
+    &:after{
+      position: absolute;
+      content: "";
+      display: block;
+      width: 18px;
+      height: 18px;
+      background-image: url("../img/icons/arrow.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 5px;
+      left: 150px;
+    }
+  }
+
+  &__img-shell{
+    position: relative;
+    width: 50%;
+    margin-top: 90px;
+  }
+
+  &__img-wrap{
+    position: relative;
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+  }
+
+  &__partners{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+
+    &-img{
+      position: relative;
+      height: 25px;
+      overflow: hidden;
+      padding-left: 30px;
+      box-sizing: border-box;
+
+        img{
+          height: 100%;
+          object-fit: contain;
+        }
+    }
+  }
+
+  &__descr-shipped{
+    position: relative;
+    color: #a3d0fc;
+    font-family: $OpenSans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+}
