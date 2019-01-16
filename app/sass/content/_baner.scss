@@ -88,17 +88,17 @@
   }
 
   &__img-wrap{
-    position: relative;
-    width: 550px;
-    height: 400px;
-    overflow: hidden;
+      position: relative;
+      width: 550px;
+      height: 400px;
+      overflow: hidden;
 
       img{
         width: 100%;
         height: 100%;
         object-fit: contain;
       }
-  }
+    }
 
   &__partners{
     position: relative;
