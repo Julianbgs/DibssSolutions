@@ -8,10 +8,10 @@
     width: 100%;
     margin-bottom: 60px;
 
-    .slick-prev{
+    .slick-prev {
       position: relative;
 
-      &:before{
+      &:before {
         position: absolute;
         content: "";
         display: block;
@@ -21,13 +21,17 @@
         background-repeat: no-repeat;
         background-size: contain;
         top: 160px;
+
+        @include breakpoint(max-width 1024px) {
+          left: 5px;
+        }
       }
     }
 
-    .slick-next{
+    .slick-next {
       position: relative;
 
-      &:before{
+      &:before {
         position: absolute;
         content: "";
         display: block;
@@ -38,6 +42,10 @@
         background-size: contain;
         right: -1110px;
         top: -130px;
+
+        @include breakpoint(max-width 1024px) {
+          right: -920px;
+        }
       }
     }
   }

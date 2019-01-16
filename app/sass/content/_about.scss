@@ -1,4 +1,4 @@
-.about{
+.about {
   position: relative;
   float: left;
   width: 100%;
@@ -6,7 +6,12 @@
   background-color: #158af4;
   margin-top: 95px;
 
-  &__title{
+  @include breakpoint(max-width 480px) {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  &__title {
     position: relative;
     width: 100%;
     color: white;
@@ -18,7 +23,7 @@
     margin-top: 60px;
   }
 
-  &__descr{
+  &__descr {
     position: relative;
     width: 100%;
     text-align: center;
@@ -30,12 +35,12 @@
     margin-top: 26px;
   }
 
-  &__button-wrap{
+  &__button-wrap {
     display: flex;
     justify-content: center;
   }
 
-  &__button-view{
+  &__button-view {
     position: relative;
     float: left;
     background-color: #9addfc;
@@ -50,6 +55,5 @@
     box-sizing: border-box;
     margin-top: 20px;
   }
-
 
 }

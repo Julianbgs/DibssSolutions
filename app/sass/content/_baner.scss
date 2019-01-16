@@ -5,7 +5,12 @@
   height: 670px;
   background-color: #0f89f3;
 
-  &__box{
+  @include breakpoint(max-width 1024px) {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  &__box {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -16,9 +21,13 @@
     position: relative;
     width: 50%;
     margin-top: 175px;
+
+    @include breakpoint(max-width 1024px) {
+      width: 100%;
+    }
   }
 
-  &__title{
+  &__title {
     position: relative;
     width: 100%;
     color: white;
@@ -28,7 +37,7 @@
     line-height: 43px;
   }
 
-  &__descr{
+  &__descr {
     position: relative;
     width: 95%;
     color: #d2e7fb;
@@ -38,7 +47,7 @@
     line-height: 25px;
   }
 
-  &__button-view{
+  &__button-view {
     position: relative;
     float: left;
     background-color: #9addfc;
@@ -54,10 +63,10 @@
     margin-top: 20px;
   }
 
-  &__descr-watch{
+  &__descr-watch {
     position: relative;
     float: left;
-    width: 100%;
+    width: 80%;
     color: #95c9fb;
     font-family: $OpenSans;
     font-size: 14px;
@@ -67,7 +76,7 @@
     margin-top: 15px;
     margin-left: 36px;
 
-    &:after{
+    &:after {
       position: absolute;
       content: "";
       display: block;
@@ -81,26 +90,39 @@
     }
   }
 
-  &__img-shell{
+  &__img-shell {
     position: relative;
     width: 50%;
     margin-top: 90px;
+
+    @include breakpoint(max-width 1024px) {
+      width: 100%;
+    }
   }
 
-  &__img-wrap{
-      position: relative;
-      width: 550px;
-      height: 400px;
-      overflow: hidden;
+  &__img-wrap {
+    position: relative;
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
 
-      img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
+    @include breakpoint(max-width 1024px) {
+      margin: 0 auto;
     }
 
-  &__partners{
+    @include breakpoint(max-width 480px) {
+      width: 300px;
+      height: 218px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__partners {
     position: relative;
     width: 100%;
     display: flex;
@@ -109,21 +131,26 @@
     justify-content: center;
     margin-top: 55px;
 
-    &-img{
+    &-img {
       position: relative;
       height: 25px;
       overflow: hidden;
       padding-left: 30px;
       box-sizing: border-box;
 
-        img{
-          height: 100%;
-          object-fit: contain;
-        }
+      @include breakpoint(max-width 480px) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
     }
   }
 
-  &__descr-shipped{
+  &__descr-shipped {
     position: relative;
     color: #a3d0fc;
     font-family: $OpenSans;
